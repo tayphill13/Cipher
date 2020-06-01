@@ -9,7 +9,17 @@ let reverseString = function(str) {
   return joinArray;
 }
 
+let combine = function(sentence) {
+  let newSentence = reverseString(capital(sentence));
+  return sentence + newSentence;
+}
+
+let charAtDivideByTwo = function(sentence) {
+  let divideByTwoChar = sentence.charAt(Math.floor(sentence.length/2));
+  return divideByTwoChar + combine(sentence);
+}
+
 let sentence = prompt("Enter a sentence:");
 
-console.log(reverseString(capital(sentence)));
+console.log(reverseString(charAtDivideByTwo(sentence)));
 
