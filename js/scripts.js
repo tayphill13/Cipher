@@ -1,3 +1,4 @@
+$(document).ready(function() {
 let capital = function(sentence) {
   return ((sentence.charAt(0)+ sentence.charAt(sentence.length-1)).toUpperCase());
 }
@@ -18,8 +19,8 @@ let charAtDivideByTwo = function(sentence) {
   let divideByTwoChar = sentence.charAt(Math.floor(sentence.length/2));
   return divideByTwoChar + combine(sentence);
 }
-
+$(".output").text(reverseString(charAtDivideByTwo(sentence)));
+});
 let sentence = prompt("Enter a sentence:");
 
-console.log(reverseString(charAtDivideByTwo(sentence)));
 
