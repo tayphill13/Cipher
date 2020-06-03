@@ -20,6 +20,7 @@ let charAtDivideByTwo = function(sentence) {
   return divideByTwoChar + combine(sentence);
 }
 $(".output").text(reverseString(charAtDivideByTwo(sentence)));
+
 });
 let sentence = prompt("Enter a sentence:");
 

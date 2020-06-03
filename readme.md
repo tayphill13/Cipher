@@ -1,6 +1,6 @@
 # _Sentence Cipher_
 
-#### _Sentence manipulation with JavaScript, 6.1.2020_
+#### _Sentence manipulation with JavaScript, 6.2.2020_
 
 #### By _**Sara Kane and Taylor Phillips**_
 
@@ -28,6 +28,7 @@ _or you can contact Sara Kane at <kane.sarak@gmail.com>_
 
 _We used HTML_
 _JavaScript_
+_jQuery_
 _Markdown for readme_
 
 ### License
