@@ -2,7 +2,7 @@
 
 #### _Sentence manipulation with JavaScript, 6.1.2020_
 
-#### By _**{Sara Kane and Taylor Phillips}**_
+#### By _**Sara Kane and Taylor Phillips**_
 
 ## Description
 
